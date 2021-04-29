@@ -9,7 +9,7 @@ public class Anagram {
 
 	public LinkedHashMap<String, String> findAnagramWords(String paragraph) {
 
-		String[] words = paragraph.split(" ");
+		String[] words = paragraph.split("111 ");
 		LinkedHashMap<String, String> anagramMatches = new LinkedHashMap<String, String>();
 		for (String word1 : words) {
 			for (String word2 : words) {
