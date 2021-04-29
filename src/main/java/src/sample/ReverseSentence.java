@@ -9,6 +9,7 @@ public class ReverseSentence {
 	public static void main(String[] args) {
 
 		String sentence = "India is Best";
+		String sentence = "India is Best";
 
 		String[] words = sentence.split(" ");
 		List<String> splitWords = new ArrayList<String>();
