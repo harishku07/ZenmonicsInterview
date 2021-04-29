@@ -7,7 +7,7 @@ public class LinkedListMethods {
 
 		LinkedList<String> strings = new LinkedList<String>();
 
-		strings.add("a");
+		strings.add("x");
 		strings.add("b");
 		strings.add("c");
 		strings.add("d");
