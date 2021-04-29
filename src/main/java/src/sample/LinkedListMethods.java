@@ -7,7 +7,7 @@ public class LinkedListMethods {
 
 		LinkedList<String> strings = new LinkedList<String>();
 
-		strings.add("a");
+		strings.add("x");
 		strings.add("b");
 		strings.add("c");
 		strings.add("d");
@@ -15,10 +15,9 @@ public class LinkedListMethods {
 		strings.add("f");
 		strings.add("g");
 		strings.add("f");
+		strings.add("feature2");
 		strings.add("f1");
 
-		
-		strings.add("f1");
 		String thirdElement = strings.get(strings.indexOf(strings.getLast()) - 2);
 		System.out.println(thirdElement);
 		String thirdElement1 = strings.get(strings.size() - 3);
