@@ -14,6 +14,9 @@ public class LinkedListMethods {
 		strings.add("e");
 		strings.add("f");
 		strings.add("g");
+		strings.add("f");
+		strings.add("feature2");
+		strings.add("f1");
 
 		String thirdElement = strings.get(strings.indexOf(strings.getLast()) - 2);
 		System.out.println(thirdElement);
